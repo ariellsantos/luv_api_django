@@ -26,6 +26,12 @@ INSTALLED_APPS = [
 ]
 
 
+REST_FRAMEWORK = {
+    'EXCEPTION_HANDLER': 'luv_api.src.Infraestructure.shared.exceptions.core_exception_handler',
+    'NON_FIELD_ERRORS_KEY': 'error',
+}
+
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
