@@ -1,1 +1,2 @@
 from .bulk_products_post import BulkProductsPostView
+from .list_products_get_view import ListProductsGetView

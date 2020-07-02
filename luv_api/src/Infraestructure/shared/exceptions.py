@@ -14,7 +14,7 @@ def core_exception_handler(exc, context):
         return handlers[exception_class](exc, context, response)
 
     return  response
-
+q
 
 def _handle_generic_error(exc, context, response):
     response.data = {
