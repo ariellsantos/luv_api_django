@@ -1,0 +1,9 @@
+.idea/
+*.pyc
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+.ebextensions
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+Dockerrun.aws.json
