@@ -11,12 +11,14 @@ curl --location --request POST 'http://luv-env.eba-h5bkmu5g.us-west-2.elasticbea
 --data-raw '{
 	"products": [
 		{
+			"id": "dddd1",
 			"name": "Producto 1",
 			"value": 20.1,
 			"discount_value": 1,
 			"stock": 1
 		},	
 		{
+			"id": "dddd2",
 			"name": "Product 2",
 			"value": 30.1,
 			"discount_value": 18,
